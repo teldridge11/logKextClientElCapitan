@@ -3,10 +3,13 @@ Code for updating logKext key logger on El Capitan
 
 STEP 1:
 
--Hold ⌘R while starting your mac
+-Hold ⌘R while starting your mac (This boots your computer in recovery mode).
+
 -Navigate to Utilities → Terminal
+
 -Type `csrutil disable` into Terminal. This disables System Integrity Protection. To reactive, use `csrutil enable`.
--Restart you Mac
+
+-Restart your Mac
 
 STEP 2:
 
