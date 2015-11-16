@@ -13,17 +13,17 @@ STEP 1:
 
 STEP 2:
 
-Now that SIP is disable, you can download logKext from a place of your preference.
+Now that SIP is disabled, you can download logKext from a place of your preference.
 
 http://www.macupdate.com/app/mac/16155/logkext
 
 STEP 3:
 
-Many people run into an issue where the keylogger stops logging after a short period.  To fix this, create a new file in your logKext folder logKextKiller.py. (The code for this file is included in this repository.)
+Many people run into an issue where the keylogger stops logging after a short period of time.  To fix this, create a new file logKextKiller.py. (The code for this file is included in this repository.)
 
 STEP 4:
 
-In Terminal, run the command `open -e .bash_profile`.  The code you need to add to your bash profile is also included in this repository under bash_profile.
+In Terminal, run the command `open -e .bash_profile`.  (The code you need to add to your bash profile is also included in this repository.)
 
 After completing the above steps, logKext should work as explained in the README.
 
