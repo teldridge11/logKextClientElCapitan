@@ -11,17 +11,17 @@ Code for updating logKext key logger on El Capitan
 
 -Restart your Mac
 
-STEP 2:
+<b>STEP 2:</b>
 
 Now that SIP is disabled, you can download logKext from a place of your preference.
 
 http://www.macupdate.com/app/mac/16155/logkext
 
-STEP 3:
+<b>STEP 3:</b>
 
 Many people run into an issue where the keylogger stops logging after a short period of time.  To fix this, create a new file logKextKiller.py. (The code for this file is included in this repository.)
 
-STEP 4:
+<b>STEP 4:</b>
 
 In Terminal, run the command `open -e .bash_profile`.  (The code you need to add to your bash profile is also included in this repository.)
 
@@ -29,7 +29,7 @@ After completing the above steps, logKext should work as explained in the README
 
 https://code.google.com/p/logkext/wiki/ReadMe
 
-SOURCES:
+<b>SOURCES:</b>
 
 https://github.com/SlEePlEs5/logKext/issues/3
 
