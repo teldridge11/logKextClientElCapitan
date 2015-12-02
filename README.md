@@ -19,7 +19,7 @@ http://www.macupdate.com/app/mac/16155/logkext
 
 <b>STEP 3:</b>
 
-Many people run into an issue where the keylogger stops logging after a short period of time.  To fix this, create a new file logKextKiller.py. (The code for this file is included in this repository.)
+Many people run into an issue where the keylogger stops logging after a short period of time.  To fix this, create a new file `logKextKiller.py`. (The code for this file is included in this repository.)
 
 <b>STEP 4:</b>
 
