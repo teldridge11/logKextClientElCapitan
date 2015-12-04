@@ -7,7 +7,7 @@ Code for updating logKext key logger on El Capitan
 
 -Navigate to Utilities → Terminal
 
--Type `csrutil disable` into Terminal. This disables System Integrity Protection. To reactive, use `csrutil enable`.
+-Type the command `csrutil disable` into Terminal. This disables System Integrity Protection. To reactive SIP, use `csrutil enable`.
 
 -Restart your Mac
 
@@ -15,18 +15,20 @@ Code for updating logKext key logger on El Capitan
 
 Now that SIP is disabled, you can download logKext from a place of your preference.
 
+Download:
 http://www.macupdate.com/app/mac/16155/logkext
 
 <b>STEP 3:</b>
 
-Many people run into an issue where the keylogger stops logging after a short period of time.  To fix this, create a new file `logKextKiller.py`. (The code for this file is included in this repository.)
+Many people run into an issue where the keylogger stops logging after a short period of time.  To fix this, create a new file `logKextKiller.py`. (The code to create the file is included in this repository under `logKextKiller.py`)
 
 <b>STEP 4:</b>
 
-In Terminal, run the command `open -e .bash_profile`.  (The code you need to add to your bash profile is also included in this repository.)
+In Terminal, run the command `open -e .bash_profile`.  (The code to create your bash profile is also included in this repository under `.bash_profile`)
 
 After completing the above steps, logKext should work as explained in the README.
 
+README:
 https://code.google.com/p/logkext/wiki/ReadMe
 
 <b>SOURCES:</b>
