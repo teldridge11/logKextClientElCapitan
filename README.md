@@ -3,7 +3,7 @@ Code for updating logKext key logger on El Capitan
 
 <b>STEP 1:</b>
 
--Hold ⌘R while starting your mac (This boots your computer in recovery mode).
+-Hold `⌘R` while starting your mac (This boots your computer in recovery mode).
 
 -Navigate to Utilities → Terminal
 
