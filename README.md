@@ -24,7 +24,7 @@ Many people run into an issue where the keylogger stops logging after a short pe
 
 <b>STEP 4:</b>
 
-In Terminal, run the command `open -e .bash_profile`.  (The code to create your bash profile is also included in this repository under `.bash_profile`)
+In Terminal, run the command `open -e .bash_profile`.  (The code to put in your bash profile is also included in this repository under `.bash_profile`)
 
 After completing the above steps, logKext should work as explained in the README.
 
