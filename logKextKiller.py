@@ -2,7 +2,7 @@ import subprocess
 import time
 import daemon
 
-def loop_kill_logKextClient():
+def logKextClientKillLoop():
     '''Kill the keylogger daemon.'''
     while True:
         subprocess.call(['pkill', 'logKextDaemon'])
@@ -10,7 +10,7 @@ def loop_kill_logKextClient():
 
 def run():
     with daemon.DaemonContext():
-        loop_kill_logKextClient()
+        logKextClientKillLoop()
 
 if __name__ == "__main__":
     run()
