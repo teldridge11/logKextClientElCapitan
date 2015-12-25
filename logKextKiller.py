@@ -13,6 +13,6 @@ def run():
     with daemon.DaemonContext():
         logKextClientKillLoop()
 
-# If name is 'main' run the kill loop
+# If main, run the kill loop
 if __name__ == "__main__":
     run()
