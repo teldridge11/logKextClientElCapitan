@@ -1,8 +1,7 @@
 # logKextClientElCapitan
 Code for updating logKext key logger on El Capitan
 
-<b>STEP 1:</b>
-
+###STEP 1
 -Hold `⌘R` while starting your mac (This boots your computer in recovery mode).
 
 -Navigate to Utilities → Terminal
