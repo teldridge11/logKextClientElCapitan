@@ -27,8 +27,7 @@ After completing the above steps, logKext should work as explained in the README
 <b>README:</b>
 https://code.google.com/p/logkext/wiki/ReadMe
 
-<b>SOURCES:</b>
-
+###Sources
 https://github.com/SlEePlEs5/logKext/issues/3
 
 https://github.com/SlEePlEs5/logKext/pull/16/files?diff=split&short_path=04c6e90
